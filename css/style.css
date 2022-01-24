@@ -38,3 +38,8 @@ hr{
   padding-left: 100px;
   padding-right: 100px;
 }
+
+.bottom{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
