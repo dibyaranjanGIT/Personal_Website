@@ -108,6 +108,13 @@ padding-bottom: 50px;
   font-size: 1.5em;
 }
 
+.footer-link-git{
+  left: 20px;
+}
+
+.rserved{
+  padding-top: 20px;
+}
 
 a {
     color: #45b29a;
