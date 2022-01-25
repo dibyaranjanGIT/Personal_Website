@@ -1,19 +1,17 @@
 body{
-  background-color: #D3DEDC;
-  margin: 0px;
+  background-color: #DFEEEA;
+  margin: 0;
   text-align: center;
 }
 h1{
-  color: #24A19C; /* #45b29a */
-  font-family: Georgia;
-  font-size: 70px;
+  color: #1e836c  ; /* #45b29a  1e836c DFEEEA D3DEDC */
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
 }
 
 hr{
   position: relative;
-  top: 20px;
-  padding-bottom: 20px;
-  background-color: #D3DEDC;
+  background-color: #F7F7F7;
   border-style: dotted none none;
   border-color: grey;
   border-width: 5px;
@@ -22,24 +20,124 @@ hr{
 
 .top{
   position: relative;
-  top: 0;
+  padding-top: 80px;
   padding-left: 320px;
   padding-right: 300px;
 }
 
+.top_cloud{
+  position: absolute;
+  right: 300px;
+  top:50px;
+}
+.bottom_cloud{
+position: absolute;
+left: 300px;
+bottom: 300px;
+}
+
+.hill_img{
+position: relative;
+top:50px;
+padding-bottom: 50px;
+}
+
 .middle{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 0;
-  background-color: #EEF2FF;
-  position: relative;
+  margin-top:  20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
+  background-color: #F7F7F7;
+}
+
+
+.intro{
+  width: 50%;
+  margin: auto;
+  background-color: #F7F7F7;
+  position: relative;
+  line-height: 1.5;
+}
+
+.skills{
+  background-color: #F7F7F7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skills_row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.sqlimage{
+  width: 3%;
+}
+
+.powerbi{
+  width: 3%;
+}
+
+.python{
+  width: 3%;
+}
+
+.machine{
+  width: 3%;
+}
+
+.education{
+  background-color: #F7F7F7;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bottom{
+  margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #DFEEEA;
+}
+
+.higher-education{
+  color: #45b29a;
+  font-size: 1.5em;
+}
+
+.inter-education{
+  color: #45b29a;
+  font-size: 1.5em;
+}
+
+
+a {
+    color: #45b29a;
+    border-bottom: 1px solid #45b29a;
+    font-size: 1em;
+}
+
+p {
+    text-align: center;
+    color: #45b29a;
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.5em;
+    padding: 0 0 0;
+}
+
+h3 {
+    color: #1e836c;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h2 {
+    color: #1e836c;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h5 {
+    color: #1e836c;
 }
