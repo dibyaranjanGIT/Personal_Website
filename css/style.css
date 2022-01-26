@@ -25,6 +25,10 @@ hr{
   padding-right: 300px;
 }
 
+.hill_img{
+  position: absolute;
+}
+
 .top_cloud{
   position: absolute;
   right: 300px;
@@ -37,9 +41,11 @@ bottom: 300px;
 }
 
 .hill_img{
+max-width: 100%;
 position: relative;
 top:50px;
 padding-bottom: 50px;
+overflow:auto;
 }
 
 .middle{
