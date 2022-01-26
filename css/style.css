@@ -58,6 +58,10 @@ padding-bottom: 50px;
   line-height: 1.5;
 }
 
+.IntroHi{
+  margin-bottom: 20px;
+}
+
 .skills{
   background-color: #F7F7F7;
   padding-top: 20px;
@@ -109,17 +113,30 @@ padding-bottom: 50px;
 }
 
 .footer-link-git{
-  left: 20px;
+  margin-left: 15px;
+  font-family:"Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.footer-link-linkedin{
+font-family:"Montserrat", sans-serif;
+text-decoration: none;
 }
 
 .rserved{
   padding-top: 20px;
+  text-decoration: none;
 }
 
 a {
     color: #45b29a;
     border-bottom: 1px solid #45b29a;
     font-size: 1em;
+    text-decoration: none;
+}
+
+a:hover{
+  color: #1e836c ;
 }
 
 p {
@@ -143,6 +160,8 @@ h2 {
     text-align: center;
     font-size: 3em;
     font-weight: 400;
+
+
 }
 
 h5 {
