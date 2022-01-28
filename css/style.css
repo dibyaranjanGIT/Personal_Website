@@ -96,12 +96,14 @@ overflow:auto;
 }
 
 .education{
+  text-align: center;
   background-color: #F7F7F7;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .bottom{
+  position: relative;
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -109,13 +111,20 @@ overflow:auto;
 }
 
 .higher-education{
+  padding-left: 370px;
+  padding-right: 280px;
+  text-align: center;
   color: #45b29a;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  width: 50%;
 }
 
 .inter-education{
+  padding-left: 370px;
+  padding-right: 280px;
   color: #45b29a;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  width: 50%;
 }
 
 .footer-link-git{
