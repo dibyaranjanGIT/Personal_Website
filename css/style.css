@@ -19,10 +19,9 @@ hr{
 }
 
 .top{
+  max-width: 100%;
   position: relative;
   padding-top: 80px;
-  padding-left: 320px;
-  padding-right: 300px;
 }
 
 .hill_img{
