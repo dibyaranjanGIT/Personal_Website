@@ -111,17 +111,16 @@ overflow:auto;
 }
 
 .higher-education{
-  padding-left: 370px;
-  padding-right: 280px;
-  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
   color: #45b29a;
   font-size: 1.2em;
   width: 50%;
 }
 
 .inter-education{
-  padding-left: 370px;
-  padding-right: 280px;
+  margin-left: 25%;
+  margin-right: 25%;
   color: #45b29a;
   font-size: 1.2em;
   width: 50%;
