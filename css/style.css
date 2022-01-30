@@ -86,6 +86,11 @@ overflow:auto;
   margin-top:2.5%;
 }
 
+.excel{
+  width: 3%;
+  margin-top:2.5%;
+}
+
 .python{
   width: 3%;
   margin-top:2.5%;
@@ -102,8 +107,9 @@ overflow:auto;
 }
 
 .ranking{
-  font-size: 1em;
+  font-size: .5em;
   margin-top:0.5%;
+  font-weight: 200;
 }
 
 .education{
