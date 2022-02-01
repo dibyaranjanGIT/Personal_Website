@@ -19,9 +19,11 @@ hr{
 }
 
 .top{
+  padding-top: 120px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
   max-width: 100%;
   position: relative;
-  padding-top: 80px;
 }
 
 .hill_img{
@@ -48,9 +50,9 @@ overflow:auto;
 }
 
 .middle{
-  margin-top:  20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top:  50px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #F7F7F7;
 }
 
@@ -70,40 +72,39 @@ overflow:auto;
 .skills{
   background-color: #F7F7F7;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
-.skills_row{
-  width: 50%;
-}
 
 .sqlimage{
-  width: 3%;
+  width: 15%;
+  margin-left:150px;
 }
 
 .powerbi{
-  width: 3%;
+  width: 25%;
   margin-top:2.5%;
 }
 
 .excel{
-  width: 3%;
+  width: 28%;
   margin-top:2.5%;
 }
 
 .python{
-  width: 3%;
+  width: 20%;
   margin-top:2.5%;
 }
 
 .machine{
-  width: 3%;
+  width: 25%;
   margin-top:2.5%;
 }
 
 .statistics{
-  width: 3%;
+  width: 20%;
   margin-top:2.5%;
+  margin-right: 80px;
 }
 
 .ranking{
@@ -115,16 +116,8 @@ overflow:auto;
 .education{
   text-align: center;
   background-color: #F7F7F7;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.bottom{
-  position: relative;
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #DFEEEA;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .higher-education{
@@ -143,25 +136,46 @@ overflow:auto;
   width: 50%;
 }
 
+.Projects{
+  background-color: #DFEEEA;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.dashboard{
+  max-width: 100%;
+}
+
+.bottom{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #24A19C;
+}
+
+
 .footer-link-git{
   margin-left: 15px;
   font-family:"Montserrat", sans-serif;
+  color: #1572A1;
   text-decoration: none;
 }
 
 .footer-link-linkedin{
 font-family:"Montserrat", sans-serif;
 text-decoration: none;
+color: #1572A1;
 }
 
 .rserved{
   padding-top: 20px;
   text-decoration: none;
+  color: #1572A1;
 }
 
 
 a {
-    color: #45b29a;
+    color: #1572A1;
     border-bottom: 1px solid #45b29a;
     font-size: 1em;
     text-decoration: none;
