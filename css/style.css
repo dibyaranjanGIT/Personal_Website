@@ -77,12 +77,11 @@ overflow:auto;
 
 
 .sqlimage{
-  width: 15%;
-  margin-left:150px;
+  width: 25%;
 }
 
 .powerbi{
-  width: 25%;
+  width: 30%;
   margin-top:2.5%;
 }
 
@@ -92,7 +91,7 @@ overflow:auto;
 }
 
 .python{
-  width: 20%;
+  width: 18%;
   margin-top:2.5%;
 }
 
@@ -150,7 +149,7 @@ overflow:auto;
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #24A19C;
+  background-color: #CEE5D0;
 }
 
 
@@ -217,4 +216,9 @@ h5 {
     font-size: 1em;
     font-weight: 500;
     font: "Fira Sans", sans-serif;
+}
+
+table {
+  margin-left: 250px;
+  margin-right: 250px;
 }
