@@ -9,15 +9,6 @@ h1{
   font-size: 50px;
 }
 
-hr{
-  position: relative;
-  background-color: #DFEEEA;
-  border-style: dotted none none;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
-}
-
 .top{
   padding-top: 120px;
   padding-bottom: 20px;
@@ -215,6 +206,15 @@ h5 {
     font-size: 1em;
     font-weight: 500;
     font: "Fira Sans", sans-serif;
+}
+
+hr{
+  position: relative;
+  background-color: #DFEEEA;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
 }
 
 table {
