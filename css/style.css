@@ -11,7 +11,7 @@ h1{
 
 hr{
   position: relative;
-  background-color: #F7F7F7;
+  background-color: #DFEEEA;
   border-style: dotted none none;
   border-color: grey;
   border-width: 5px;
@@ -52,7 +52,7 @@ overflow:auto;
 .middle{
   margin-top:  50px;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
   background-color: #F7F7F7;
 }
 
