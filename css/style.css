@@ -1,3 +1,6 @@
+
+/* ############################# TAG SELECTORS #############################  */
+
 body{
   background-color: #DFEEEA;
   margin: 0;
@@ -8,6 +11,67 @@ h1{
   font-family: 'Sacramento', cursive;
   font-size: 50px;
 }
+
+a:hover{
+  color: #1e836c ;
+}
+
+
+a {
+    color: #1572A1;
+    border-bottom: 1px solid #45b29a;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    color: #45b29a;
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.5em;
+    padding: 0 0 0;
+}
+
+h3 {
+    color: #1e836c;
+    text-align: center;
+    font-size: 3.2em;
+    font-weight: 400;
+}
+
+h2 {
+    color: #1e836c;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+
+
+}
+
+h5 {
+    margin-top:0.5%;
+    margin-bottom: 0.2%;
+    color: #1e836c;
+    font-size: 1em;
+    font-weight: 500;
+    font: "Fira Sans", sans-serif;
+}
+
+hr{
+  position: relative;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+table {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+/* ############################ CLASS SELECTORS ############################ */
 
 .top{
   padding-top: 120px;
@@ -160,63 +224,4 @@ color: #1572A1;
   padding-top: 20px;
   text-decoration: none;
   color: #1572A1;
-}
-
-
-a {
-    color: #1572A1;
-    border-bottom: 1px solid #45b29a;
-    font-size: 1em;
-    text-decoration: none;
-}
-
-a:hover{
-  color: #1e836c ;
-}
-
-p {
-    text-align: center;
-    color: #45b29a;
-    font-weight: 400;
-    margin: 0;
-    font-size: 1.5em;
-    padding: 0 0 0;
-}
-
-h3 {
-    color: #1e836c;
-    text-align: center;
-    font-size: 3.2em;
-    font-weight: 400;
-}
-
-h2 {
-    color: #1e836c;
-    text-align: center;
-    font-size: 2.5em;
-    font-weight: 400;
-
-
-}
-
-h5 {
-    margin-top:0.5%;
-    margin-bottom: 0.2%;
-    color: #1e836c;
-    font-size: 1em;
-    font-weight: 500;
-    font: "Fira Sans", sans-serif;
-}
-
-hr{
-  position: relative;
-  border-style: dotted none none;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
-}
-
-table {
-  margin-left: 250px;
-  margin-right: 250px;
 }
