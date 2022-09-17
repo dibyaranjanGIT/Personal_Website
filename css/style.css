@@ -1,64 +1,61 @@
-
 /* ############################# TAG SELECTORS #############################  */
-
-body{
+body {
   background-color: #DFEEEA;
   margin: 0;
   text-align: center;
 }
-h1{
-  color: #1e836c  ; /*   1e836c D3DEDC */
+
+h1 {
+  color: #1e836c;
+  /*   1e836c D3DEDC */
   font-family: 'Sacramento', cursive;
   font-size: 50px;
 }
 
-a:hover{
-  color: #1e836c ;
+a:hover {
+  color: #1e836c;
 }
 
-
 a {
-    color: #1572A1;
-    border-bottom: 1px solid #45b29a;
-    font-size: 1em;
-    text-decoration: none;
+  color: #1572A1;
+  border-bottom: 1px solid #45b29a;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 p {
-    text-align: center;
-    color: #45b29a;
-    font-weight: 400;
-    margin: 0;
-    font-size: 1.5em;
-    padding: 0 0 0;
+  text-align: center;
+  color: #45b29a;
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.5em;
+  padding: 0 0 0;
 }
 
 h3 {
-    color: #1e836c;
-    text-align: center;
-    font-size: 3.2em;
-    font-weight: 400;
+  color: #1e836c;
+  text-align: center;
+  font-size: 3.2em;
+  font-weight: 400;
 }
 
 h2 {
-    color: #1e836c;
-    text-align: center;
-    font-size: 2.5em;
-    font-weight: 400;
-
-
+  color: #1e836c;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 400;
 }
 
 h5 {
-    margin-top:0.5%;
-    margin-bottom: 0.2%;
-    color: #1e836c;
-    font-size: 1em;
-    font-weight: 500;
-    font: "Fira Sans", sans-serif;
+  margin-top: 0.5%;
+  margin-bottom: 0.2%;
+  color: #1e836c;
+  font-size: 1em;
+  font-weight: 500;
+  font: "Fira Sans", sans-serif;
 }
 
-hr{
+hr {
   position: relative;
   border-style: dotted none none;
   border-color: grey;
@@ -72,8 +69,7 @@ table {
 }
 
 /* ############################ CLASS SELECTORS ############################ */
-
-.top{
+.top {
   padding-top: 120px;
   padding-bottom: 20px;
   margin-bottom: 80px;
@@ -81,38 +77,38 @@ table {
   position: relative;
 }
 
-.hill_img{
+.hill_img {
   position: absolute;
 }
 
-.top_cloud{
+.top_cloud {
   position: absolute;
   right: 300px;
-  top:50px;
-}
-.bottom_cloud{
-position: absolute;
-left: 300px;
-bottom: 300px;
+  top: 50px;
 }
 
-.hill_img{
-max-width: 100%;
-position: relative;
-top:50px;
-padding-bottom: 50px;
-overflow:auto;
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
 
-.middle{
-  margin-top:  50px;
+.hill_img {
+  max-width: 100%;
+  position: relative;
+  top: 50px;
+  padding-bottom: 50px;
+  overflow: auto;
+}
+
+.middle {
+  margin-top: 50px;
   padding-top: 120px;
   padding-bottom: 50px;
   background-color: #F7F7F7;
 }
 
-
-.intro{
+.intro {
   width: 50%;
   margin: auto;
   background-color: #F7F7F7;
@@ -120,61 +116,60 @@ overflow:auto;
   line-height: 1.5;
 }
 
-.IntroHi{
+.IntroHi {
   margin-bottom: 20px;
 }
 
-.skills{
+.skills {
   background-color: #F7F7F7;
   padding-top: 20px;
   padding-bottom: 50px;
 }
 
-
-.sqlimage{
+.sqlimage {
   width: 25%;
 }
 
-.powerbi{
+.powerbi {
   width: 30%;
-  margin-top:2.5%;
+  margin-top: 2.5%;
 }
 
-.excel{
+.excel {
   width: 28%;
-  margin-top:2.5%;
+  margin-top: 2.5%;
 }
 
-.python{
+.python {
   width: 18%;
-  margin-top:2.5%;
+  margin-top: 2.5%;
 }
 
-.machine{
+.machine {
   width: 25%;
-  margin-top:2.5%;
+  margin-top: 2.5%;
 }
 
-.statistics{
+.statistics {
   width: 20%;
-  margin-top:2.5%;
+  margin-top: 2.5%;
   margin-right: 80px;
 }
 
-.ranking{
+.ranking {
   font-size: .5em;
-  margin-top:0.5%;
+  margin-top: 0.5%;
   font-weight: 200;
 }
 
-.education{
+.education {
   text-align: center;
   background-color: #F7F7F7;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.higher-education{
+.higher-education {
   margin-left: 25%;
   margin-right: 25%;
   color: #45b29a;
@@ -182,7 +177,7 @@ overflow:auto;
   width: 50%;
 }
 
-.inter-education{
+.inter-education {
   margin-left: 25%;
   margin-right: 25%;
   color: #45b29a;
@@ -190,37 +185,36 @@ overflow:auto;
   width: 50%;
 }
 
-.Projects{
+.Projects {
   background-color: #DFEEEA;
   padding-top: 20px;
   padding-bottom: 50px;
 }
 
-.dashboard{
+.dashboard {
   max-width: 100%;
 }
 
-.bottom{
+.bottom {
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-
-.footer-link-git{
+.footer-link-git {
   margin-left: 15px;
-  font-family:"Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #1572A1;
   text-decoration: none;
 }
 
-.footer-link-linkedin{
-font-family:"Montserrat", sans-serif;
-text-decoration: none;
-color: #1572A1;
+.footer-link-linkedin {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #1572A1;
 }
 
-.rserved{
+.rserved {
   padding-top: 20px;
   text-decoration: none;
   color: #1572A1;
