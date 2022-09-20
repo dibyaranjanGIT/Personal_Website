@@ -242,3 +242,7 @@ table {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.de{
+  text-decoration: underline;
+}
