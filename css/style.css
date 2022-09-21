@@ -222,7 +222,7 @@ table {
 
 
 .header-table{
-  background-color: #90C8AC;
+  background-color: #B1D7B4; /* 90C8AC */
   height: 50px;
   width: 100px;
   border-radius: 50%;
@@ -232,6 +232,7 @@ table {
   padding-left: 30px;
   padding-right: 40px;
   font-weight: bold;
+
 }
 
 .header-div{
@@ -241,6 +242,10 @@ table {
 .boxhead a {
     text-decoration: none;
     color: #FFFFFF;
+}
+.header-data-link{
+    color: #3D8361;
+    text-decoration: none;
 }
 
 .de{
