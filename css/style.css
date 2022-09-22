@@ -112,7 +112,6 @@ table {
   width: 50%;
   margin: auto;
   background-color: #F7F7F7;
-  position: relative;
   line-height: 1.5;
 }
 
@@ -237,6 +236,7 @@ table {
 
 .header-div{
     padding-top:40px;
+    position: fixed;
 }
 
 .boxhead a {
