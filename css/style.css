@@ -74,7 +74,6 @@ table {
   padding-bottom: 20px;
   margin-bottom: 80px;
   max-width: 100%;
-  position: relative;
 }
 
 .hill_img {
@@ -250,4 +249,12 @@ table {
 
 .de{
   text-decoration: underline;
+}
+
+.pro-grammer{
+  text-decoration: underline;
+}
+
+.table-skills-data{
+  margin: 0 auto 0 auto;
 }
