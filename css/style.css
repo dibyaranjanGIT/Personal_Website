@@ -270,7 +270,12 @@ table {
   max-width: 100%;
   /* position: absolute; */
   margin: 0 auto;
-  overflow: scroll;
   padding-top: 20px;
   padding-bottom: 50px;
+}
+
+.giphy-content{
+    overflow: scroll;
+    width: 100%;
+    margin: 0 auto;
 }
