@@ -76,6 +76,7 @@ table {
   padding-bottom: 20px;
   margin-bottom: 80px;
   max-width: 100%;
+  position: relative;
 }
 
 .hill_img {
@@ -263,4 +264,12 @@ table {
 
 .top-heading-prgrammer{
   font-family: 'Roboto Slab', serif;
+}
+
+.flat-bottom {
+  max-width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
