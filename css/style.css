@@ -238,7 +238,7 @@ table {
 
 .header-div{
     padding-top:40px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .boxhead a {
@@ -268,8 +268,8 @@ table {
 
 .flat-bottom {
   max-width: 100%;
-  position: absolute;
+  /* position: absolute; */
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
