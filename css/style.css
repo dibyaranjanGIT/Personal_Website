@@ -1,5 +1,5 @@
 /* ############################# TAG SELECTORS #############################  */
-/* 1em = 16 */
+/* 1em = 16px */
 body {
   background-color: #DFEEEA;
   margin: 0;
@@ -31,7 +31,7 @@ p {
   margin: 0;
   font-size: 1.5em;
   padding: 0 0 0;
-  font-family: 'PT Serif', serif;
+  /* font-family: 'PT Serif', serif; */
 
 }
 
@@ -111,6 +111,10 @@ table {
   background-color: #F7F7F7;
 }
 
+.my-intro{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
 .intro {
   width: 50%;
   margin: auto;
@@ -152,6 +156,7 @@ table {
   margin-top: 2.5%;
 }
 
+
 .statistics {
   width: 20%;
   margin-top: 2.5%;
@@ -175,18 +180,25 @@ table {
   margin-left: 25%;
   margin-right: 25%;
   color: #45b29a;
-  font-size: 1.2em;
+  font-size: 1.3em;
   width: 50%;
+}
+
+.higher-education-para{
+  font-size: 1.2em;
 }
 
 .inter-education {
   margin-left: 25%;
   margin-right: 25%;
   color: #45b29a;
-  font-size: 1.2em;
+  font-size: 1.3em;
   width: 50%;
 }
 
+.inter-education-para{
+  font-size: 1.2em;
+}
 .Projects {
   background-color: #DFEEEA;
   padding-top: 20px;
